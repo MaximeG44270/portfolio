@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    /* --------------------------------------------------------   Header   --------------------------------------------------------*/
+
+    .title-home {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    .home-network {
+        margin-top: 0vh;
+    }
+
+    .picture-linkedin {
+        width: 8vw;
+    }
+
+    .picture-instagram {
+        width: 8vw;
+    }
+
+    .picture-github {
+        width: 8vw;
+    }
+
+    .home-scroll {
+        margin-top: 15vh;
+    }
+
+    .arrow-scroll {
+        width: 8vw;
+    }
+
+    /* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
+
+    .h2-portfolio {
+        font-size: 3rem;
+        margin-top: 5.5vh;
+        margin-bottom: 0vh;
+    }
+
+    .instructions-portfolio {
+        font-size: 1.5rem;
+    }
+
+    /* --------------------------------------------------------   Container Skills   --------------------------------------------------------*/
+
+    .h2-skill {
+        font-size: 3rem;
+        margin-top: 4.5vh;
+    }
+
+    .block {
+        height: 39vh;
+    }
+
+    .block:hover::after {
+        font-size: 1.2rem;
+    }
+
+    /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
+
+    .h2-about-me {
+        font-size: 2.3rem;
+        margin-top: 7.5vh;
+    }
+
+    .text-about-me {
+        font-size: 2rem;
+    }
+
+    .mail-about-me {
+        font-size: 2.15rem;
+    }
+
+    /* --------------------------------------------------------   FOOTER   --------------------------------------------------------*/
+
+}

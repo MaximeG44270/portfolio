@@ -1,0 +1,161 @@
+@media screen and (min-width: 1163px) and (orientation: landscape) {
+    /* --------------------------------------------------------   Header   --------------------------------------------------------*/
+
+    .title-home {
+        font-size: 2.5rem;
+
+    }
+
+    h1 {
+        font-size: 9rem;
+        margin-top: 5vh;
+        margin-bottom: 0vh;
+    }
+
+    .home-network {
+        margin-top: 6vh;
+    }
+
+    .picture-linkedin {
+        width: 5vw;
+    }
+
+    .picture-instagram {
+        width: 5vw;
+    }
+
+    .picture-github {
+        width: 5vw;
+    }
+
+    .home-scroll {
+        margin-top: 9vh;
+    }
+
+    .arrow-scroll {
+        width: 5vw;
+    }
+
+    /* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
+
+    .portfolio-title {
+        margin-top: 5vh;
+    }
+
+    .h2-portfolio {
+        margin-top: 10vh;
+        font-size: 5rem;
+        margin-bottom: 0vh;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .instructions-portfolio {
+        font-size: 2rem;
+    }
+
+    .image-projet-1 {
+        width: 85%;
+    }
+
+    .lien-projet-1 {
+        margin-bottom: 15vh;
+    }
+
+    .image-projet-2 {
+        width: 85%;
+    }
+
+    .lien-projet-2 {
+        margin-bottom: 15vh;
+    }
+
+    .image-projet-3 {
+        width: 85%;
+    }
+
+    .lien-projet-3 {
+        margin-bottom: 15vh;
+    }
+
+    .image-projet-4 {
+        width: 85%;
+    }
+
+    .lien-projet-4 {
+        margin-bottom: 15vh;
+    }
+
+    /* --------------------------------------------------------   Container Skills   --------------------------------------------------------*/
+
+    .h2-skill {
+        font-size: 4.5rem;
+        margin-top: 9.5vh;
+    }
+
+    .block {
+        height: 23vh;
+    }
+
+    .picture-css,
+    .picture-js,
+    .picture-html,
+    .picture-react,
+    .picture-angular,
+    .picture-ps,
+    .picture-ai,
+    .picture-figma {
+        height: 50%;
+    }
+
+    .block:hover::after {
+        font-size: 1.3rem;
+    }
+
+    /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
+
+    .about-me-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .picture-about-me {
+        margin-top: 15vh;
+    }
+
+    .about-me-network {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vh;
+        margin-left: -9vw;
+        margin-right: 4vw;
+    }
+
+    .container-picture-about-me {
+        margin-top: 11vh;
+        width: 115vw;
+        height: 59vh;
+    }
+
+    .h2-about-me {
+        margin-top: 29.5vh;
+        font-size: 3.5rem;
+    }
+
+    .text-about-me {
+        font-size: 1.5rem;
+        margin-left: 0vw;
+        width: 51vw;
+    }
+
+    .mail-about-me {
+        font-size: 2.2rem;
+        margin-left: 0vw;
+    }
+
+    /* --------------------------------------------------------   FOOTER   --------------------------------------------------------*/
+
+}

@@ -1,0 +1,158 @@
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+        /* --------------------------------------------------------   Header   --------------------------------------------------------*/
+
+        .title-home {
+            font-size: 2rem;
+
+        }
+        h1 {
+            font-size: 9rem;
+            margin-top: 5vh;
+            margin-bottom: 0vh;
+        }
+
+        .home-network {
+            margin-top: 6vh;
+        }
+
+        .picture-linkedin {
+            width: 5vw;
+        }
+
+        .picture-instagram {
+            width: 5vw;
+        }
+
+        .picture-github {
+            width: 5vw;
+        }
+
+        .home-scroll {
+            margin-top: 9vh;
+        }
+
+        .arrow-scroll {
+            width: 5vw;
+        }
+
+        /* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
+
+        .portfolio-title {
+            margin-top: 5vh;
+        }
+
+        .h2-portfolio {
+            margin-top: 10vh;
+            font-size: 4rem;
+            margin-bottom: 0vh;
+        }
+
+        .portfolio-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .instructions-portfolio {
+            font-size: 1.5rem;
+        }
+
+        .image-projet-1 {
+            width: 75%;
+        }
+
+        .lien-projet-1 {
+            margin-bottom: 15vh;
+        }
+
+        .image-projet-2 {
+            width: 75%;
+        }
+
+        .lien-projet-2 {
+            margin-bottom: 15vh;
+        }
+
+        .image-projet-3 {
+            width: 75%;
+        }
+
+        .lien-projet-3 {
+            margin-bottom: 15vh;
+        }
+
+        .image-projet-4 {
+            width: 75%;
+        }
+
+        .lien-projet-4 {
+            margin-bottom: 15vh;
+        }
+
+        /* --------------------------------------------------------   Container Skills   --------------------------------------------------------*/
+
+        .h2-skill {
+            font-size: 3.8rem;
+            margin-top: 8.5vh;
+        }
+
+        .block {
+            height: 30vh;
+        }
+
+        .picture-css,
+        .picture-js,
+        .picture-html,
+        .picture-react,
+        .picture-angular,
+        .picture-ps,
+        .picture-ai,
+        .picture-figma {
+            height: 50%;
+        }
+
+        .block:hover::after {
+            font-size: 0.9rem;
+        }
+
+        /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
+
+        .about-me-2 {
+            display: flex;
+            flex-direction: row;
+        }
+        .picture-about-me {
+            margin-top: 15vh;
+        }
+
+        .about-me-network {
+            display: flex;
+            flex-direction: row;
+            margin-top: 5vh;
+            margin-left: -7vw;
+        }
+
+        .container-picture-about-me {
+            margin-top: 11vh;
+            width: 267vw;
+            height: 78vh;
+        }
+
+        .h2-about-me {
+            margin-top: 28.5vh;
+            font-size: 3rem;
+        }
+
+        .text-about-me {
+            font-size: 1.5rem;
+            margin-left: 0vw;
+            width: 42vw;
+        }
+
+        .mail-about-me {
+            font-size: 1.5rem;
+            margin-left: 0vw;
+        }
+
+        /* --------------------------------------------------------   FOOTER   --------------------------------------------------------*/
+
+    }

@@ -1,0 +1,111 @@
+@media screen and (min-width: 932px) and (orientation: landscape) {
+    /* --------------------------------------------------------   Header   --------------------------------------------------------*/
+
+    h1 {
+        margin-top: 5vh;
+    }
+
+    .title-home {
+        font-size: 1.5rem;
+    }
+    
+    .home-network {
+        margin-top: 0vh;
+    }
+
+    .picture-linkedin {
+        width: 5vw;
+    }
+
+    .picture-instagram {
+        width: 5vw;
+    }
+
+    .picture-github {
+        width: 5vw;
+    }
+
+    .home-scroll {
+        margin-top: 14vh;
+    }
+
+    .arrow-scroll {
+        width: 5vw;
+    }
+
+    /* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
+
+    .portfolio-title {
+        margin-top: 5vh;
+    }
+
+    .h2-portfolio {
+        margin-top: 18vh;
+        font-size: 3rem;
+        margin-bottom: 0vh;
+    }
+
+    .image-projet-1 {
+        width: 58%;
+    }
+
+    .image-projet-2 {
+        width: 58%;
+    }
+
+    .image-projet-3 {
+        width: 58%;
+    }
+
+    .image-projet-4 {
+        width: 58%;
+    }
+
+    /* --------------------------------------------------------   Container Skills   --------------------------------------------------------*/
+
+    .h2-skill {
+        font-size: 3rem;
+        margin-top: 16.5vh;
+    }
+
+    .block {
+        height: 30vh;
+    }
+
+    .picture-css,
+    .picture-js,
+    .picture-html,
+    .picture-react,
+    .picture-angular,
+    .picture-ps,
+    .picture-ai,
+    .picture-figma {
+        height: 70%;
+    }
+
+    .block:hover::after {
+        font-size: 0.8rem;
+    }
+
+    /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
+
+    .picture-about-me {
+        margin-top: 15vh;
+    }
+
+    .h2-about-me {
+        margin-top: 36.5vh;
+        font-size: 2.9rem;
+    }
+
+    .text-about-me {
+        font-size: 1.5rem;
+    }
+
+    .mail-about-me {
+        font-size: 2.6rem;
+    }
+
+    /* --------------------------------------------------------   FOOTER   --------------------------------------------------------*/
+
+}

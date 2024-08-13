@@ -1,0 +1,87 @@
+@media screen and (min-width: 667px) and (orientation: landscape) {
+    /* --------------------------------------------------------   Header   --------------------------------------------------------*/
+
+    h1 {
+        margin-top: 5vh;
+    }
+
+    .home-network {
+        margin-top: 0vh;
+    }
+
+    .picture-linkedin {
+        width: 5vw;
+    }
+
+    .picture-instagram {
+        width: 5vw;
+    }
+
+    .picture-github {
+        width: 5vw;
+    }
+
+    .home-scroll {
+        margin-top: 10vh;
+    }
+    .arrow-scroll {
+        width: 5vw;
+    }
+    /* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
+
+    .portfolio-title {
+        margin-top: 5vh;
+    }
+
+    .h2-portfolio {
+        margin-top: 13vh;
+        font-size: 2.5rem;
+        margin-bottom: 0vh;
+    }
+   
+    .image-projet-1 {
+        width: 65%;
+    }
+
+    .image-projet-2 {
+        width: 65%;
+    }
+
+    .image-projet-3 {
+        width: 65%;
+    }
+    
+    .image-projet-4 {
+        width: 65%;
+    }
+    /* --------------------------------------------------------   Container Skills   --------------------------------------------------------*/
+
+    .h2-skill {
+        font-size: 2.5rem;
+        margin-top: 11.5vh;
+    }
+
+    .picture-css,
+    .picture-js,
+    .picture-html,
+    .picture-react,
+    .picture-angular,
+    .picture-ps,
+    .picture-ai,
+    .picture-figma {
+        height: 70%;
+    }
+    
+    /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
+
+    .picture-about-me { 
+        margin-top: 15vh;
+    }
+    .h2-about-me {
+        margin-top: 33.5vh;
+        font-size: 1.9rem;
+    }
+
+    /* --------------------------------------------------------   FOOTER   --------------------------------------------------------*/
+
+}

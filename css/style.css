@@ -1,0 +1,399 @@
+/* --------------------------------------------------------   Header   --------------------------------------------------------*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#home {
+    margin-top: -75vh;
+}
+
+.wrapper-home {
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.texte-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-home {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #d8d8d8;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffffe8;
+    text-stroke: 1px #ffffffc5;
+    background: radial-gradient(circle farthest-corner at center center, #cfcfcf17 0%, #0000002d 100%);
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    text-align: center;
+}
+
+.home-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+    position: relative;
+}
+
+.picture-linkedin {
+    width: 13vw;
+    margin-right: 10vw;
+}
+
+.picture-instagram {
+    width: 13vw;
+}
+
+.picture-github {
+    width: 13vw;
+    margin-left: 10vw;
+}
+
+.home-scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.arrow-scroll {
+    width: 13vw;
+}
+
+/* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.text-portfolio {
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.h2-portfolio {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #d8d8d8;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 4vh;
+}
+
+.instructions-portfolio {
+    font-family: 'poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6e6e6e;
+    margin-top: 0vh;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lien-projet-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.image-projet-1 {
+    width: 75%;
+}
+
+.lien-projet-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh
+}
+
+.image-projet-2 {
+    width: 75%;
+}
+
+.lien-projet-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh
+}
+
+.image-projet-3 {
+    width: 75%;
+}
+
+.lien-projet-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh
+}
+
+.image-projet-4 {
+    width: 75%;
+}
+
+/* --------------------------------------------------------   Container Skills   --------------------------------------------------------*/
+
+#skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.text-skill {
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.h2-skill {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #d8d8d8;
+    text-align: center;
+    margin-top: 3.5vh;
+}
+
+.container-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.block {
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.block::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease, visibility 0.3s ease;
+    text-align: left;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.block:hover {
+    flex: 100;
+}
+
+.block:hover::after {
+    opacity: 1;
+    text-justify: auto;
+    margin: auto;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-align: justify;
+    visibility: visible;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 10px;
+    font-size: 0.6rem;
+    color: #6e6e6e;
+    background-image: url(attr(data-image));
+}
+
+.picture-html,
+.picture-css,
+.picture-js,
+.picture-react,
+.picture-angular,
+.picture-ps,
+.picture-ai,
+.picture-figma {
+    height: 20%;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.block:hover .picture-html,
+.block:hover .picture-css,
+.block:hover .picture-js,
+.block:hover .picture-react,
+.block:hover .picture-angular,
+.block:hover .picture-ps,
+.block:hover .picture-ai,
+.block:hover .picture-figma {
+    visibility: hidden;
+}
+
+/* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture-about-me {
+    width: 100%;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.h2-about-me {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #d8d8d8;
+    text-align: center;
+    margin-top: 5.5vh;
+}
+
+.about-me-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-picture-about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.picture-about-me-2 {
+    width: 75%;
+    border-radius: 20%;
+}
+
+.container-text-about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-about-me {
+    font-family: 'poppins', sans-serif;
+    width: 76.5vw;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 11.5vw;
+    text-align: justify;
+    color: #6e6e6e;
+    margin-top: 10vh;
+}
+
+.mail-about-me {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin-left: 11.5vw;
+    color: white;
+    margin-top: 5vh;
+}
+
+.about-me-network {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.linkedin-about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.picture-linkedin-about-me {
+    width: 25%;
+}
+
+.instagram-about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.picture-instagram-about-me {
+    width: 25%;
+}
+
+.github-about-me {
+    display: flex;
+    justify-content: center;
+}
+.picture-github-about-me {
+    width: 25%;
+}
+
+/* --------------------------------------------------------   FOOTER   --------------------------------------------------------*/
+
+.footer {
+    height: 10vh;
+}
