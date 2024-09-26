@@ -43,8 +43,8 @@
     }
 
     .h2-portfolio {
-        margin-top: 10vh;
-        font-size: 5rem;
+        margin-top: 11.5vh;
+        font-size: 4rem;
         margin-bottom: 0vh;
     }
 
@@ -112,7 +112,7 @@
     }
 
     .block:hover::after {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
@@ -141,8 +141,8 @@
     }
 
     .h2-about-me {
-        margin-top: 29.5vh;
-        font-size: 3.5rem;
+        margin-top: 30.5vh;
+        font-size: 3rem;
     }
 
     .text-about-me {

@@ -5,6 +5,10 @@
         margin-top: -80vh;
     }
 
+    .language-switcher {
+        margin-top: -18vh;
+    }
+
     h1 {
         margin-top: 5vh;
     }
@@ -26,7 +30,7 @@
     }
 
     .home-scroll {
-        margin-top: 10vh;
+        margin-top: 15vh;
     }
 
     .arrow-scroll {

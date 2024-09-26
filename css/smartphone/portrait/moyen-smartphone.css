@@ -9,6 +9,10 @@
         margin-top: 12vh;
     }
 
+    .language-switcher {
+        margin-top: -18vh;
+    }
+
     .home-network {
         margin-top: 10vh;
     }
@@ -33,10 +37,14 @@
         margin-top: 5vh;
     }
 
+    .block:hover::after {
+        font-size: 0.55rem;
+    }
+
     /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
 
     .h2-about-me {
-        margin-top: 4.5vh;
+        margin-top: 5vh;
     }
 
     .mail-about-me {

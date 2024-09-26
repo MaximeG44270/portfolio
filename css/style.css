@@ -27,6 +27,38 @@ canvas {
 
 #home {
     margin-top: -75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-switcher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    margin-top: -22vh;
+}
+
+.button-left-en {
+    margin-right: 5vw;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #d8d8d8;
+    background-color: transparent;
+    border: none;
+}
+
+.button-right-fr {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #d8d8d8;
+    background-color: transparent;
+    border: none;
 }
 
 .wrapper-home {
@@ -311,12 +343,12 @@ h1 {
 
 .h2-about-me {
     font-family: 'poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     font-style: italic;
     color: #d8d8d8;
     text-align: center;
-    margin-top: 5.5vh;
+    margin-top: 6vh;
 }
 
 .about-me-2 {

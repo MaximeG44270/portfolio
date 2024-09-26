@@ -40,6 +40,10 @@
         width: 4vw;
     }
 
+    .button-left-en {
+        margin-right: 5vw;
+    }
+
     /* --------------------------------------------------------   Portfolio   --------------------------------------------------------*/
 
     .portfolio-title {
@@ -116,7 +120,7 @@
     }
 
     .block:hover::after {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
@@ -150,8 +154,8 @@
     }
 
     .h2-about-me {
-        margin-top: 35.5vh;
-        font-size: 6rem;
+        margin-top: 37.5vh;
+        font-size: 5rem;
     }
 
     .text-about-me {

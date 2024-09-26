@@ -1,8 +1,12 @@
 @media screen and (min-width: 768px) and (orientation: portrait) {
     /* --------------------------------------------------------   Header   --------------------------------------------------------*/
 
+    .language-switcher {
+        margin-top: -10vh;
+    }
+
     .title-home {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h1 {
@@ -57,14 +61,14 @@
     }
 
     .block:hover::after {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     /* --------------------------------------------------------   Container About Me   --------------------------------------------------------*/
 
     .h2-about-me {
-        font-size: 2.3rem;
-        margin-top: 7.5vh;
+        font-size: 2rem;
+        margin-top: 8vh;
     }
 
     .text-about-me {
